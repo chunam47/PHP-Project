@@ -46,7 +46,7 @@ CREATE TABLE `candidate_apply` (
 --
 
 INSERT INTO `candidate_apply` (`id`, `name`, `email`, `phone`, `introduction`, `resume`, `job_id`, `user_id`, `created_on`, `update_on`, `is_active`) VALUES
-(26, NULL, 'user1@gmail.com', '0983058005', '                                               \r\nKính gửi Quý Công ty Công ty TNHH FFG,\r\n\r\nTôi là: Hien Duc,\r\n\r\nQua website techjob.vn, tôi được biết Quý công ty đang có nhu cầu tuyển dụng nhân sự cho vị trí \"Technical Leader – Up to $3000\".\r\n\r\nQua thông tin tuyển dụng công ty cung cấp, tôi tin rằng với năng lực của mình, tôi hoàn toàn đáp ứng được yêu cầu công việc của Quý công ty.\r\n\r\nVì vậy, qua techjob.vn, tôi xin nộp đơn ứng tuyển vào vị trí \"Technical Leader – Up to $3000\" của Quý công ty.\r\n\r\nTôi xin', '1615643680.', 25, 28, '2021-03-13 00:00:00', '2021-03-13 00:00:00', b'1');
+(26, NULL, 'user1@gmail.com', '0983058005', '                                               \r\nKính gửi Quý Công ty Công ty TNHH FFG,\r\n\r\nTôi là: Đàm Đức,\r\n\r\nQua website techjob.vn, tôi được biết Quý công ty đang có nhu cầu tuyển dụng nhân sự cho vị trí \"Technical Leader – Up to $3000\".\r\n\r\nQua thông tin tuyển dụng công ty cung cấp, tôi tin rằng với năng lực của mình, tôi hoàn toàn đáp ứng được yêu cầu công việc của Quý công ty.\r\n\r\nVì vậy, qua techjob.vn, tôi xin nộp đơn ứng tuyển vào vị trí \"Technical Leader – Up to $3000\" của Quý công ty.\r\n\r\nTôi xin', '1615643680.', 25, 28, '2021-03-13 00:00:00', '2021-03-13 00:00:00', b'1');
 
 -- --------------------------------------------------------
 
@@ -533,8 +533,8 @@ CREATE TABLE `user_company` (
 --
 
 INSERT INTO `user_company` (`id`, `name`, `detail`, `image_logo`, `image_cover`, `address`, `website`, `size`, `province_id`, `contact_name`, `is_active`, `user_id`) VALUES
-(9, 'FPT Software', NULL, '1615631551.jpg', NULL, 'Hoà Hải, Ngũ Hành Sơn, Đà Nẵng 550000', NULL, NULL, '48', 'Trần Mỹ Chi', b'1', 26),
-(10, 'Mo Mo', NULL, '1615632020.png', NULL, 'Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh', NULL, NULL, '79', 'Hieu Le', b'1', 27),
+(9, 'FPT Software', NULL, '1615631551.jpg', NULL, 'Hoà Hải, Ngũ Hành Sơn, Đà Nẵng 550000', NULL, NULL, '48', 'Chu Nam', b'1', 26),
+(10, 'Mo Mo', NULL, '1615632020.png', NULL, 'Phường Tân Phú, Quận 7, Thành phố Hồ Chí Minh', NULL, NULL, '79', 'Thành Phát', b'1', 27),
 (12, 'Faker Dev', NULL, NULL, NULL, 'TP Thủ Đức', NULL, NULL, '79', 'Tạ Minh Đăng', b'1', 32);
 
 -- --------------------------------------------------------
