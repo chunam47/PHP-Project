@@ -42,7 +42,6 @@ foreach($data_check_role as $userrole) {
                         <td>
                         <?=$cmt[2]?>
                         </td>
-                        
                         <td>
                         <?php
                               switch ($cmt[3]) {
@@ -135,7 +134,7 @@ foreach($data_check_role as $userrole) {
     </div>
     <div class="col-md-4 col-sm-12 col-12">
 
-<?php 
+<?php
     require(ROOT. '/Views/client/_layout/sidebar.php');
     require(ROOT. '/Views/client/_layout/footer.php');
 ?>
@@ -143,5 +142,5 @@ foreach($data_check_role as $userrole) {
 
 <?php } else {
   require(ROOT. '/Views/recruitment/Account/denied.php');
- } 
+ }
 } ?>
