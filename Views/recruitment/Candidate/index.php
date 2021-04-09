@@ -30,7 +30,6 @@ foreach($data_check_role as $userrole) {
                     <?php 
                         foreach ($candidateData as $candidate) {
                     ?>
-                                
                     <tr>
                         <td>
                         <?= $candidate[11] ?>
@@ -50,13 +49,11 @@ foreach($data_check_role as $userrole) {
                             <a href="?c=Post&a=Delete&id=<?= $candidate[0] ?>" class="btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                         </td>
                     </tr>
-                                
                 <?php
                     }
                 ?>
                </tbody>
             </table>
-                     
       </div>
       </div>
 <style>
@@ -77,5 +74,5 @@ table {
 }table thead { background: #0065d1; color: #fff; border: none; }a.paginate_button.current { background: #fff!important; color: #fff!important; border: none; border-radius: 50%!important; width: 35px; height: 35px; display: flex; text-align: center; justify-content: center; align-items: center; }table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1,table.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1,table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd { background-color: #ffffff!important; }</style>
 <?php } else {
   require(ROOT. '/Views/recruitment/Account/denied.php');
- } 
+ }
 } ?>

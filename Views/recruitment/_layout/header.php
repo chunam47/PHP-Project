@@ -60,7 +60,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto tnav-left tn-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Việc Làm IT</a>
+        <a class="nav-link" href="?c=Job&a=ListJobs">Việc Làm IT</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Tin Tức</a>
@@ -133,16 +133,16 @@
       <li class="nav-item">
         <a class="nav-link" href="?c=User&a=RecProfile&id=<?=$user_id[1] ?>">Quản lý hồ sơ</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#">Tài khoản</a>
-      </li>
+      </li> -->
     </ul>
     <ul class="rec-nav-right">
       <li class="nav-item">
         <a class="nav-link" href="#">Tìm hồ sơ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="?c=Home&a=Recruitment">Đăng tuyển</a>
+        <a class="nav-link" href="?c=Job&a=Create">Đăng tuyển</a>
       </li>
     </ul>
   </div>
@@ -164,3 +164,9 @@
   </div>
 </div> -->
 <!-- (end) widget recuitment  -->
+<style>
+.nav-recuitment{
+  margin-top: 0px;
+}
+
+</style>

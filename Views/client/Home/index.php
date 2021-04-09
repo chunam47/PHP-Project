@@ -102,14 +102,13 @@
             <li>
                 <a href="#" class="readallstyle reads1">Xem tất cả</a>
             </li>
-
           </ul>
         </div>
       </div>
 
       <div class="job-sidebar">
         <div class="sb-banner">
-          <img src="Assets/client/img/ads1.jpg" class="advertisement">
+          <img src="/Assets/client/img/ads1.png" class="">
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
-<?php 
+<?php
     require(ROOT. '/Views/recruitment/_layout/header.php');
     if(isset($_SESSION['login_user'])){
-        $user = $_SESSION['login_user']; 
+        $user = $_SESSION['login_user'];
         $mysqli = new mysqli('localhost', 'root', '', 'dbtechjob');
 
         $query = "SELECT users.id, users.full_name, users.user_type FROM users WHERE email = '$user'";
@@ -9,7 +9,6 @@
         $data = $result->fetch_all();
         $user_id = $data[0];
     }
-    
 ?>
 
 <?php
